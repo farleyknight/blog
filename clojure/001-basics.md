@@ -23,7 +23,7 @@ The [equals](http://clojuredocs.org/clojure_core/clojure.core/=) function.
 
 ## Logical operations.
 
-The [and](http://clojuredocs.org/clojure_core/clojure.core/and) and [or](http://clojuredocs.org/clojure_core/clojure.core/or) operators with the special form [if](http://clojuredocs.org/clojure_core/clojure.core/if)
+The [and](http://clojuredocs.org/clojure_core/clojure.core/and) and [or](http://clojuredocs.org/clojure_core/clojure.core/or) operators with the special form [if](http://clojuredocs.org/clojure_core/clojure.core/if).
 
 ```clojure
 (not true)       ; => false
