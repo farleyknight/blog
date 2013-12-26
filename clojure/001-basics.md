@@ -2,27 +2,37 @@
 
 Clojure is a Lisp-based language, so you'll see lots of primitives that Lisp handles well have built-in language features:
 
-Basic arithmetic.
+## Basic arithmetic.
+
+The addition, subtraction, multiplication and division operators.
+
 ```clojure
-(+ 1 1) ; => 2
+(+ 1 1)   ; => 2
+(- 1 2)   ; => 1
+(* 1 2 3) ; => 6
+(/ 1 0)   ; => ArithmeticException Divide by zero
 ```
 
-Equality.
+## Tests for equality.
+
+The [equals](http://clojuredocs.org/clojure_core/clojure.core/=) function.
+
 ```clojure
 (= 1 1) ; => true
 ```
 
-Logical operators.
+## Logical operations.
 ```clojure
 (not true) ; => false
+(if true 1 2) ; => 1
 ```
 
-Evaluating quoted forms.
+## Evaluating quoted forms.
 ```clojure
 (eval '(+ 1 2)) ; => 3
 ```
 
-Concatenating strings.
+## Concatenating strings.
 ```clojure
 (str "Hello" " " "World") ; => "Hello World"
 ```
