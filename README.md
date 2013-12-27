@@ -2,8 +2,6 @@
 
 We'll see how long this lasts..
 
-[; e^x ;]
-
 ## Some posts
 
 * Dec 26, 2013 - [Clojure Notes](https://github.com/farleyknight/blog/blob/master/2013-12-26.md)
